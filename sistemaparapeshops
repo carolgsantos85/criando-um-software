@@ -1,0 +1,67 @@
+Projeto de Software – 
+Sistema para Pet Shops
+
+1.	Apresentação: Este documento apresenta o projeto de software para um sistema de gerenciamento de Pet Shops, destinado a otimizar as operações diárias desse tipo de estabelecimento. O sistema visa fornecer uma plataforma eficiente para a gestão de clientes, pets, produtos e serviços oferecidos pelo Pet Shop.
+
+2.	Descrição do Projeto: O sistema de gestão para Pet Shops será uma plataforma digital que permitirá aos estabelecimentos gerenciar suas operações de forma integrada. Isso inclui funções como cadastro de clientes e animais, agendamento de tosa e banho, controle de estoque de produtos, emissão de faturas e relatórios gerenciais.
+
+3. Descrição dos Usuários: Os principais usuários do sistema incluem:
+•	Proprietários de Pet Shops
+•	Funcionários administrativos
+•	Clientes (para acesso a agendamentos e informações sobre seus animais)
+
+4. Necessidades Observadas e Regras de Negócio 
+Necessidades observadas:
+•	Agilizar o agendamento de serviços de banho, tosa, e outros procedimentos.
+•	Controle de estoque de produtos como alimentos, brinquedos e acessórios.
+•	Emissão de notas fiscais para serviços e produtos vendidos.
+•	Acompanhamento financeiro, incluindo faturamento, despesas e lucros.
+Regras de Negócio:
+•	Os clientes devem ser capazes de agendar serviços com pelo menos 24 horas de antecedência.
+•	O sistema deve notificar os clientes sobre consultas agendas e lembretes de compromissos.
+•	Produtos em estoque abaixo de um limite mínimo devem acionar um alerta.
+•	As faturas devem ser geradas com base nos serviços realizados e produtos adquiridos.
+
+5. Requisitos Funcionais
+•	Registro e gerenciamento de clientes e pets.
+•	Agendamento de serviços.
+•	Controle de estoque de produtos.
+•	Emissão de notas fiscais.
+•	Acompanhamento financeiro.
+
+
+6. Requisitos Não Funcionais
+•	Interface de usuário intuitiva e de fácil utilização.
+•	Segurança dos dados do cliente e pet.
+•	Alta disponibilidade para evitar interrupções no atendimento.
+•	Desempenho eficiente mesmo com grande quantidade de registros.
+
+7. Tecnologias Previstas
+•	Linguagem de programação: Python
+•	Banco de Dados: PostgreSQL
+•	Frontend: HTML5, CSS3, JavaScript
+•	Hospedagem: AWS (Amazon Web Services)
+•	Sistema Operacional: Windows 
+•	Segurança: Autenticação de usuário, HTTPS
+
+8. Três Funcionalidades (Três Telas Previstas) 
+a) Tela de Agendamento:
+•	Permite aos atendentes agendar serviços e consultas para os pets.
+•	Mostra disponibilidade com base na agenda do estabelecimento.
+b) Tela de Cadastro de Clientes
+•	Facilita o registro de novos clientes e seus animais, incluindo informações de contato e histórico médico.
+c) Tela de Controle de Estoque:
+•	Exibe o status atual do estoque de produtos.
+•	Permite a atualização manual dos registros de estoque.
+
+9. Três Registros a Serem Armazenados: 
+a) Registro de Clientes:
+•	Nome, endereço, telefone, e-mail.
+b) Registro de Pets:
+•	Nome, espécie, raça, data de nascimento, histórico médico.
+c) Registro de Produtos:
+•	Nome, descrição, preço, quantidade em estoque.
+
+10. Uso de Banco de Dados: O sistema utilizará um banco de dados PostgreSQL para armazenar e gerenciar informações como cadastro de clientes, registros de animais, agendamentos, estoque de produtos e históricos de serviços. 
+
+Conclusão: O sistema de gerenciamento de Pet Shops visa otimizar a operação desses estabelecimentos, facilitando o controle de agendamentos, clientes, pets, produtos e serviços. Com uma interface amigável e tecnologias confiáveis, o software busca melhorar a eficiência, a organização e a satisfação tanto dos proprietários quanto dos clientes do Pet Shop.
